@@ -1,0 +1,17 @@
+.page-container,
+.navbar {
+    background-color: #03a9f429 !important;
+}
+
+.page-head {
+    background: #03a9f4b0 !important;
+}
+
+[data-page-route=Workspaces] .layout-main-section {
+    background-color: #03a9f436 !important;
+
+}
+
+.dropdown-help {
+    display: none !important;
+}
