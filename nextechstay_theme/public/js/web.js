@@ -1,0 +1,1 @@
+$(".footer-col-right.footer-powered").html("nextech.ERP");

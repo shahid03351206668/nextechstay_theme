@@ -30,7 +30,7 @@ app_include_css = "/assets/nextechstay_theme/css/main.css"
 
 # include js, css files in header of web template
 web_include_css = "/assets/nextechstay_theme/css/login.css"
-# web_include_js = "/assets/nextechstay_theme/js/nextechstay_theme.js"
+web_include_js = "/assets/nextechstay_theme/js/web.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "nextechstay_theme/public/scss/website"
@@ -241,4 +241,3 @@ web_include_css = "/assets/nextechstay_theme/css/login.css"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

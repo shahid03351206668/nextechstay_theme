@@ -11,7 +11,13 @@
     border-bottom: 1px solid;
 }
 
-body[data-path="login"] {
-    background-color: #03a9f429 !important;
+body {
+    background-color: #cff0ff !important;
+
+}
+
+.web-footer {
+    border-top: 1px solid #000;
+    background-color: #cff0ff !important;
 
 }
