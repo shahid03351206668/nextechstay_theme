@@ -29,7 +29,7 @@ app_include_css = "/assets/nextechstay_theme/css/main.css"
 # app_include_js = "/assets/nextechstay_theme/js/nextechstay_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/nextechstay_theme/css/nextechstay_theme.css"
+web_include_css = "/assets/nextechstay_theme/css/login.css"
 # web_include_js = "/assets/nextechstay_theme/js/nextechstay_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")

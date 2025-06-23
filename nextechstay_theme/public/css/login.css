@@ -1,0 +1,17 @@
+.form-control {
+    background: #D7F3FD !important;
+}
+
+.login-content.page-card {
+    background: #03a9f4b0 !important;
+}
+
+.navbar.navbar-expand-lg {
+    background-color: #03a9f429 !important;
+    border-bottom: 1px solid;
+}
+
+body[data-path="login"] {
+    background-color: #03a9f429 !important;
+
+}
