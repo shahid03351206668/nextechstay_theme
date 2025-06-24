@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/nextechstay_theme/css/main.css"
-# app_include_js = "/assets/nextechstay_theme/js/nextechstay_theme.js"
+app_include_js = "/assets/nextechstay_theme/js/desk.js"
 
 # include js, css files in header of web template
 web_include_css = "/assets/nextechstay_theme/css/login.css"
