@@ -12,16 +12,11 @@ function addAnalyticsItem() {
     if (!$(".standard-sidebar-section[data-title='Public']").find(".analytics-items").length) {
 
         $(".standard-sidebar-section[data-title='Public']").append($(`
-            <div class="sidebar-item-container analytics-items" item-public="1" item-is-hidden="0">
+            <div class="sidebar-item-container analytics-items" item-public="1" item-is-hidden="0" >
                 <div class="desk-sidebar-item standard-sidebar-item">
-                    <a href="/insights" class="item-anchor" title="Nextech Analytics">
+                    <a href="/insights" class="item-anchor" title="Nextech Analytics" target="_blank">
                         <span class="sidebar-item-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-chart-line-icon lucide-chart-line">
-                                <path d="M3 3v16a2 2 0 0 0 2 2h16" />
-                                <path d="m19 9-5 5-4-4-3 3" />
-                            </svg>
+                            ${frappe.utils.icon("chart")}
                         </span>
                         <span class="sidebar-item-label">Analytics<span></span></span>
                     </a>
@@ -29,4 +24,39 @@ function addAnalyticsItem() {
             </div>
         `));
     }
+
+    if (!$(".standard-sidebar-section[data-title='Public']").find(".pms-items").length) {
+
+        $(".standard-sidebar-section[data-title='Public']").append($(`
+            <div class="sidebar-item-container pms-items" item-public="1" item-is-hidden="0">
+                <div class="desk-sidebar-item standard-sidebar-item">
+                    <a href="https://mypms.nextechstay.com" class="item-anchor" title="Nextech pms" target="_blank">
+                        <span class="sidebar-item-icon">
+                            ${frappe.utils.icon("organization")}
+                        </span>
+                        <span class="sidebar-item-label">PMS<span></span></span>
+                    </a>
+                </div>
+            </div>
+        `));
+    }
+    if (!$(".standard-sidebar-section[data-title='Public']").find(".mydinepro-items").length) {
+
+        $(".standard-sidebar-section[data-title='Public']").append($(`
+            <div class="sidebar-item-container mydinepro-items" item-public="1" item-is-hidden="0">
+                <div class="desk-sidebar-item standard-sidebar-item">
+                    <a href="https://mydinepro.nextechstay.com/" class="item-anchor" title="Nextech mydinepro" target="_blank">
+                        <span class="sidebar-item-icon">
+                            ${frappe.utils.icon("folder-normal")}
+                        </span>
+                        <span class="sidebar-item-label">DinePro<span></span></span>
+                    </a>
+                </div>
+            </div>
+        `));
+    }
+
+
+
+
 }
