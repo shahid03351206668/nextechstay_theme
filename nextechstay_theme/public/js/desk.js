@@ -34,6 +34,7 @@ function addAnalyticsItem() {
                         <span class="sidebar-item-icon">
                             ${frappe.utils.icon("organization")}
                         </span>
+                        
                         <span class="sidebar-item-label">nextech .PMS<span></span></span>
                     </a>
                 </div>
