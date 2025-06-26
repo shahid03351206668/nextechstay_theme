@@ -34,7 +34,7 @@ function addAnalyticsItem() {
                         <span class="sidebar-item-icon">
                             ${frappe.utils.icon("organization")}
                         </span>
-                        <span class="sidebar-item-label">PMS<span></span></span>
+                        <span class="sidebar-item-label">nextech .PMS<span></span></span>
                     </a>
                 </div>
             </div>
@@ -49,7 +49,7 @@ function addAnalyticsItem() {
                         <span class="sidebar-item-icon">
                             ${frappe.utils.icon("folder-normal")}
                         </span>
-                        <span class="sidebar-item-label">DinePro<span></span></span>
+                        <span class="sidebar-item-label">nextech .DinePro<span></span></span>
                     </a>
                 </div>
             </div>
